@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "restaurantDMGA",
+    "slug": "restaurantDMGA",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dulcearellano136.restaurantDMGA",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Se necesita acceso a la cámara para tomar fotos",
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyAyPIHidp32360x8UqvjQ03b6-dL8xC3S4"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.dulcearellano136.restaurantDMGA"
+    },
+    "config": {
+      "googleMapsApiKey": {
+        "apiKey": "AIzaSyAyPIHidp32360x8UqvjQ03b6-dL8xC3S4"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eba94948-a9c7-4568-9b86-06c8823b2f10"
+      }
+    },
+    "owner": "dulcearellano136"
+  }
+}
